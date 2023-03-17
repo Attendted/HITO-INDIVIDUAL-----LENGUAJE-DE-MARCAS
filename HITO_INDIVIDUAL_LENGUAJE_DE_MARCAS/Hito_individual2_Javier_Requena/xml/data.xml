@@ -1,0 +1,2437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-stylesheet type='text/xsl' href='Apartado1.xsl'?>
+<?xml-stylesheet type='text/xsl' href='Apartado2.xsl'?>
+<?xml-stylesheet type='text/xsl' href='Apartado3.xsl'?>
+<?xml-stylesheet type='text/xsl' href='Apartado4.xsl'?>
+
+<facturacion>
+    <anios>
+        <anio2021>
+            <trimestres>
+                <trimestre id='TRIMESTRE_1'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_1'>
+                                <infoPedido>
+                                    <numPedido>6695812545</numPedido>
+                                    <fechaCompra>26-01-2022</fechaCompra>
+                                    <totalFactura>780</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tarjeta Nvidia 3070</nombreProducto>
+                                        <referencia>ES565856</referencia>
+                                        <precio>580</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Ratón Corsair Harpoon</nombreProducto>
+                                        <referencia>ES85286356</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_2'>
+                                <infoPedido>
+                                    <numPedido>6859528145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>450</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>450</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_3'>
+                                <infoPedido>
+                                    <numPedido>254125413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_4'>
+                                <infoPedido>
+                                    <numPedido>44455289</numPedido>
+                                    <fechaCompra>12-08-2020</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tiras Led 2.4M</nombreProducto>
+                                        <referencia>ES585858</referencia>
+                                        <precio>25</precio>
+                                        <unidades>4</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_5'>
+                                <infoPedido>
+                                    <numPedido>ES8595854</numPedido>
+                                    <fechaCompra>07-01-2017</fechaCompra>
+                                    <totalFactura>250</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tiras Led 2.1M</nombreProducto>
+                                        <referencia>ES58526</referencia>
+                                        <precio>50</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Disipador Corsair</nombreProducto>
+                                        <referencia>ES258151</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_3'>                     
+                            <infocliente>
+                                <nombre>Rodrigo</nombre>
+                                <apellidos>Pozo Campos</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_6'>
+                                <infoPedido>
+                                    <numPedido>93652542</numPedido>
+                                    <fechaCompra>24-12-2018</fechaCompra>
+                                    <totalFactura>850</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>PC Premontado ASUS</nombreProducto>
+                                        <referencia>ES8595852</referencia>
+                                        <precio>850</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_4'>                     
+                            <infocliente>
+                                <nombre>Raúl</nombre>
+                                <apellidos>Rodelgo Martinez</apellidos>
+                                <telefono>657253662</telefono>
+                                <direccion>
+                                    <calle>Calle medio</calle>
+                                    <ciudad>Moraleja de enmedio</ciudad>
+                                    <cp>254142</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Raúl.rodelgo@correo.es</correo>
+                                <fechaInclusion>13-01-2007</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_7'>
+                                <infoPedido>
+                                    <numPedido>5389004</numPedido>
+                                    <fechaCompra>04-04-2012</fechaCompra>
+                                    <totalFactura>520</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador AMD k7</nombreProducto>
+                                        <referencia>ES421525</referencia>
+                                        <precio>420</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Ratón Logitech Astro</nombreProducto>
+                                        <referencia>ES4758256</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_8'>
+                                <infoPedido>
+                                    <numPedido>5767014</numPedido>
+                                    <fechaCompra>22-11-2015</fechaCompra>
+                                    <totalFactura>600</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Refrigeración liquida Custom LED</nombreProducto>
+                                        <referencia>ES425635</referencia>
+                                        <precio>600</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_5'>                     
+                            <infocliente>
+                                <nombre>Sergio</nombre>
+                                <apellidos>Rodriguez mayo</apellidos>
+                                <telefono>62542546</telefono>
+                                <direccion>
+                                    <calle>Calle Peso</calle>
+                                    <ciudad>Moraleja de en medio</ciudad>
+                                    <cp>4252635</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio.rodriguez@correo.es</correo>
+                                <fechaInclusion>30-08-2014</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_9'>
+                                <infoPedido>
+                                    <numPedido>6659569</numPedido>
+                                    <fechaCompra>15-07-2023</fechaCompra>
+                                    <totalFactura>250</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Ratón inalámbrico Asus</nombreProducto>
+                                        <referencia>ES585696</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Memoria RAM 32GB Corsair</nombreProducto>
+                                        <referencia>ES252525</referencia>
+                                        <precio>80</precio>
+                                        <unidades></unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Disco Duro Mecánico 250GB</nombreProducto>
+                                        <referencia></referencia>
+                                        <precio>20</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_10'>
+                                <infoPedido>
+                                    <numPedido>8917202</numPedido>
+                                    <fechaCompra>17-01-2023</fechaCompra>
+                                    <totalFactura>120</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Disco Duro SSD 1TB</nombreProducto>
+                                        <referencia>ES5254124</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_2'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_11'>
+                                <infoPedido>
+                                    <numPedido>5991679</numPedido>
+                                    <fechaCompra>25-11-2010</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Disco Duro Extraible</nombreProducto>
+                                        <referencia>ES475562582</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_12'>
+                                <infoPedido>
+                                    <numPedido>4522228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_13'>
+                                <infoPedido>
+                                    <numPedido>628145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>420</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>420</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_14'>
+                                <infoPedido>
+                                    <numPedido>6858145</numPedido>
+                                    <fechaCompra>30-02-2022</fechaCompra>
+                                    <totalFactura>350</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>350</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_15'>
+                                <infoPedido>
+                                    <numPedido>685945</numPedido>
+                                    <fechaCompra>30-02-2022</fechaCompra>
+                                    <totalFactura>400</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_6'>                     
+                            <infocliente>
+                                <nombre>Javier</nombre>
+                                <apellidos>Requena Vela</apellidos>
+                                <telefono>65825545</telefono>
+                                <direccion>
+                                    <calle>Calle de valencia</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>254425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>javier.requena@correo.es</correo>
+                                <fechaInclusion>05-10-2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_16'>
+                                <infoPedido>
+                                    <numPedido>2541254123323</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>50</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_7'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Gabacho</apellidos>
+                                <telefono>652525625</telefono>
+                                <direccion>
+                                    <calle>Avenida los molinos</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>458522</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.perea.correo.es</correo>
+                                <fechaInclusion>20-07-2019</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_17'>
+                                <infoPedido>
+                                    <numPedido>2542515228</numPedido>
+                                    <fechaCompra>21-08-2020</fechaCompra>
+                                    <totalFactura>860</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>460</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_8'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Tovar Barroso</apellidos>
+                                <telefono>652552626</telefono>
+                                <direccion>
+                                    <calle>Calle de Leganias</calle>
+                                    <ciudad>Leganes</ciudad>
+                                    <cp>44145</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.tovar@correo.es</correo>
+                                <fechaInclusion>30-08-2014</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_18'>
+                                <infoPedido>
+                                    <numPedido>2541254151</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_19'>
+                                <infoPedido>
+                                    <numPedido>254125413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_20'>
+                                <infoPedido>
+                                    <numPedido>68545</numPedido>
+                                    <fechaCompra>25-02-2023</fechaCompra>
+                                    <totalFactura>370</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>370</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_3'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_21'>
+                                <infoPedido>
+                                    <numPedido>413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_22'>
+                                <infoPedido>
+                                    <numPedido>2544543</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_23'>
+                                <infoPedido>
+                                    <numPedido>25413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_24'>
+                                <infoPedido>
+                                    <numPedido>2513</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_25'>
+                                <infoPedido>
+                                    <numPedido>4525152</numPedido>
+                                    <fechaCompra>24-05-2020</fechaCompra>
+                                    <totalFactura>1600</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>PC Premontado ASUS</nombreProducto>
+                                        <referencia>ES8595852</referencia>
+                                        <precio>800</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_9'>                     
+                            <infocliente>
+                                <nombre>Nerea</nombre>
+                                <apellidos>Ruiz Padrilla</apellidos>
+                                <telefono>65658959</telefono>
+                                <direccion>
+                                    <calle>Calle Rombos</calle>
+                                    <ciudad>Serranillos del valle</ciudad>
+                                    <cp>415151</cp>
+                                    <provincia>Toledo</provincia>
+                                </direccion>
+                                <correo>nerea.ruiz@correo.es</correo>
+                                <fechaInclusion>20-07-2019</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_26'>
+                                <infoPedido>
+                                    <numPedido>254125413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_27'>
+                                <infoPedido>
+                                    <numPedido>25413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>310</totalFactura>
+                                    <totalProductos>32</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_10'>                     
+                            <infocliente>
+                                <nombre>Alejandro</nombre>
+                                <apellidos>Del Hierro</apellidos>
+                                <telefono>62525356</telefono>
+                                <direccion>
+                                    <calle>Calle de leagnitos</calle>
+                                    <ciudad>Leganes</ciudad>
+                                    <cp>4525852</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Alejandro.delhierro@correo.es</correo>
+                                <fechaInclusion>27-10-2007</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_28'>
+                                <infoPedido>
+                                    <numPedido>623423234</numPedido>
+                                    <fechaCompra>14-08-2018</fechaCompra>
+                                    <totalFactura>580</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tarjeta Nvidia 3070</nombreProducto>
+                                        <referencia>ES565856</referencia>
+                                        <precio>280</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Ratón Corsair Harpoon</nombreProducto>
+                                        <referencia>ES85286356</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_11'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Pichac</apellidos>
+                                <telefono>695958922</telefono>
+                                <direccion>
+                                    <calle>Calle de huamnitos</calle>
+                                    <ciudad>Humanes de Madrid</ciudad>
+                                    <cp>4525635</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.pichac@correo.es</correo>
+                                <fechaInclusion>27-03-2013</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_29'>
+                                <infoPedido>
+                                    <numPedido>25413</numPedido>
+                                    <fechaCompra>08-06-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_30'>
+                                <infoPedido>
+                                    <numPedido>582648252</numPedido>
+                                    <fechaCompra>29-02-2021</fechaCompra>
+                                    <totalFactura>750</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tarjeta Nvidia 3070</nombreProducto>
+                                        <referencia>ES565856</referencia>
+                                        <precio>450</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Ratón Corsair Harpoon</nombreProducto>
+                                        <referencia>ES85286356</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_4'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_31'>
+                                <infoPedido>
+                                    <numPedido>9528145</numPedido>
+                                    <fechaCompra>25-04-2020</fechaCompra>
+                                    <totalFactura>350</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>350</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_32'>
+                                <infoPedido>
+                                    <numPedido>68595454145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>2200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>2200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                 <pedido id='PEDIDO_33'>
+                                <infoPedido>
+                                    <numPedido>614454545</numPedido>
+                                    <fechaCompra>14-03-2022</fechaCompra>
+                                    <totalFactura>410</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>410</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_34'>
+                                <infoPedido>
+                                    <numPedido>4542525</numPedido>
+                                    <fechaCompra>20-10-2020</fechaCompra>
+                                    <totalFactura>250</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>250</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_35'>
+                                <infoPedido>
+                                    <numPedido>45454545</numPedido>
+                                    <fechaCompra>14-05-2013</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador celeron Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES65das2547</referencia>
+                                        <precio>320</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_12'>                     
+                            <infocliente>
+                                <nombre>Sabin</nombre>
+                                <apellidos>Maniuc</apellidos>
+                                <telefono>68568695</telefono>
+                                <direccion>
+                                    <calle>Calle Cuadrados</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>475256</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sabin.maniuc@correo.es</correo>
+                                <fechaInclusion>12-08-2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_36'>
+                                <infoPedido>
+                                    <numPedido>6365524142</numPedido>
+                                    <fechaCompra>20-12-2015</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>42</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_37'>
+                                <infoPedido>
+                                    <numPedido>45255528145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>450</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>450</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_13'>                     
+                            <infocliente>
+                                <nombre>Marisa</nombre>
+                                <apellidos>Plaza Rubio</apellidos>
+                                <telefono>6954515121</telefono>
+                                <direccion>
+                                    <calle>Calle Triangulos</calle>
+                                    <ciudad>Humanes de Madrid</ciudad>
+                                    <cp>45253625</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Marisa.plaza@correo.es</correo>
+                                <fechaInclusion>25-08-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_38'>
+                                <infoPedido>
+                                    <numPedido>7582658528</numPedido>
+                                    <fechaCompra>28-01-2021</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>50</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_14'>                     
+                            <infocliente>
+                                <nombre>Carlos</nombre>
+                                <apellidos>Requena Vela</apellidos>
+                                <telefono>659215451</telefono>
+                                <direccion>
+                                    <calle>Calle de valencia</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>4256252</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Carlos.requena@correo.es</correo>
+                                <fechaInclusion>25-08-2019</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_39'>
+                                <infoPedido>
+                                    <numPedido>6859528145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>450</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>450</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_40'>
+                                <infoPedido>
+                                    <numPedido>6859528145</numPedido>
+                                    <fechaCompra>30-02-2023</fechaCompra>
+                                    <totalFactura>400</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Procesador Intel 12.3 4.3GHZ</nombreProducto>
+                                        <referencia>ES652547</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+            </trimestres>
+        </anio2021>
+        <anio2022>
+            <trimestres>
+                <trimestre id='TRIMESTRE_1'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_41'>
+                                <infoPedido>
+                                    <numPedido>4752825289</numPedido>
+                                    <fechaCompra>08-08-2023</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_42'>
+                                <infoPedido>
+                                    <numPedido>7856281628</numPedido>
+                                    <fechaCompra>15-01-2020</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>90</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Eslava</apellidos>
+                                <telefono>65518478</telefono>
+                                <direccion>
+                                    <calle>Calle de Leganes</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>452545225</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.eslava@correo.es</correo>
+                                <fechaInclusion></fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_43'>
+                                <infoPedido>
+                                    <numPedido>856352515</numPedido>
+                                    <fechaCompra>09-10-2020</fechaCompra>
+                                    <totalFactura>420</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tarjeta Nvidia 3070</nombreProducto>
+                                        <referencia>ES565856</referencia>
+                                        <precio>220</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Ratón Corsair Harpoon</nombreProducto>
+                                        <referencia>ES85286356</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_44'>
+                                <infoPedido>
+                                    <numPedido>455414142</numPedido>
+                                    <fechaCompra>25-11-2010</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Disco Duro Extraible</nombreProducto>
+                                        <referencia>ES475562582</referencia>
+                                        <precio>300</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_45'>
+                                <infoPedido>
+                                    <numPedido>93652542</numPedido>
+                                    <fechaCompra>24-12-2018</fechaCompra>
+                                    <totalFactura>850</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>PC Premontado ASUS</nombreProducto>
+                                        <referencia>ES8595852</referencia>
+                                        <precio>850</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_16'>                     
+                            <infocliente>
+                                <nombre>Rodrigo2</nombre>
+                                <apellidos>Pozo Campos2</apellidos>
+                                <telefono>68542522325</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo2</calle>
+                                    <ciudad>Arroyo Molinos2</ciudad>
+                                    <cp>8695422325</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo2@correo.es</correo>
+                                <fechaInclusion>14-10-2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_46'>
+                                <infoPedido>
+                                    <numPedido>8454528</numPedido>
+                                    <fechaCompra>20-05-2020</fechaCompra>
+                                    <totalFactura>950</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>550</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_47'>
+                                <infoPedido>
+                                    <numPedido>745252632</numPedido>
+                                    <fechaCompra>18-05-2000</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>25</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_17'>                     
+                            <infocliente>
+                                <nombre>Daniel6</nombre>
+                                <apellidos>Eslava6</apellidos>
+                                <telefono>65518478565</telefono>
+                                <direccion>
+                                    <calle>Calle de Leganes6</calle>
+                                    <ciudad>Fuenlabrada6</ciudad>
+                                    <cp>452545266625</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.eslav6a@correo.es</correo>
+                                <fechaInclusion></fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_48'>
+                                <infoPedido>
+                                    <numPedido>69985545212</numPedido>
+                                    <fechaCompra>21-12-2022</fechaCompra>
+                                    <totalFactura>460</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>260</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_18'>                     
+                            <infocliente>
+                                <nombre>Danieel</nombre>
+                                <apellidos>Eslavaa</apellidos>
+                                <telefono>65515454578</telefono>
+                                <direccion>
+                                    <calle>Calle de Leganes222</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>452545222325</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.eslava2@correo.es</correo>
+                                <fechaInclusion></fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_49'>
+                                <infoPedido>
+                                    <numPedido>858254154</numPedido>
+                                    <fechaCompra>30-08-2015</fechaCompra>
+                                    <totalFactura>400</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Ordenador Premontado OMEN</nombreProducto>
+                                        <referencia>ES58551548</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_50'>
+                                <infoPedido>
+                                    <numPedido>254125413</numPedido>
+                                    <fechaCompra>15-06-2022</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_2'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_51'>
+                                <infoPedido>
+                                    <numPedido>8484525228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>960</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_52'>
+                                <infoPedido>
+                                    <numPedido>8484525228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>960</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_53'>
+                                <infoPedido>
+                                    <numPedido>85454545428</numPedido>
+                                    <fechaCompra>21-07-2009</fechaCompra>
+                                    <totalFactura>560</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_54'>
+                                <infoPedido>
+                                    <numPedido>8484525228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>860</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>460</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_55'>
+                                <infoPedido>
+                                    <numPedido>525228</numPedido>
+                                    <fechaCompra>21-07-2020</fechaCompra>
+                                    <totalFactura>660</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>360</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>300</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_19'>                     
+                            <infocliente>
+                                <nombre>Rodrigo5</nombre>
+                                <apellidos>Pozo Campos5</apellidos>
+                                <telefono>6854252554</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo5</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>869544545</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo5@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_56'>
+                                <infoPedido>
+                                    <numPedido>848452</numPedido>
+                                    <fechaCompra>01-10-2020</fechaCompra>
+                                    <totalFactura>900</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>500</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_57'>
+                                <infoPedido>
+                                    <numPedido>848444555455228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>965</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>565</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_20'>                     
+                            <infocliente>
+                                <nombre>Rodrigo12</nombre>
+                                <apellidos>Pozo Campos12</apellidos>
+                                <telefono>68121225</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo12</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo12@correo.es</correo>
+                                <fechaInclusion>14-10-2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_58'>
+                                <infoPedido>
+                                    <numPedido>85842852473</numPedido>
+                                    <fechaCompra>18-12-2020</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>50</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_59'>
+                                <infoPedido>
+                                    <numPedido>5991679</numPedido>
+                                    <fechaCompra>25-11-2010</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Disco Duro Mecanico</nombreProducto>
+                                        <referencia>ES4755654212</referencia>
+                                        <precio>150</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_21'>                     
+                            <infocliente>
+                                <nombre>Rodrigo545</nombre>
+                                <apellidos>Pozo Campos554</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo14454@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_60'>
+                                <infoPedido>
+                                    <numPedido>4852228</numPedido>
+                                    <fechaCompra>15-05-2020</fechaCompra>
+                                    <totalFactura>540</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>540</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_3'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_61'>
+                                <infoPedido>
+                                    <numPedido>86565658</numPedido>
+                                    <fechaCompra>21-08-2020</fechaCompra>
+                                    <totalFactura>965</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>405</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_62'>
+                                <infoPedido>
+                                    <numPedido>848452522d695658</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>970</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>570</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_63'>
+                                <infoPedido>
+                                    <numPedido>85228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_64'>
+                                <infoPedido>
+                                    <numPedido>85228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1500</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>550</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_65'>
+                                <infoPedido>
+                                    <numPedido>85228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_22'>
+                            <infocliente>
+                                <nombre>Rodrasdfo</nombre>
+                                <apellidos>Pozo Campos3434</apellidos>
+                                <telefono>6854252534</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo78@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_66'>
+                                <infoPedido>
+                                    <numPedido>852254548</numPedido>
+                                    <fechaCompra>21-12-2020</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_23'>                     
+                            <infocliente>
+                                <nombre>Rodrigo656</nombre>
+                                <apellidos>Pozo Campos656</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo5656</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo656@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_67'>
+                                <infoPedido>
+                                    <numPedido>85228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_68'>
+                                <infoPedido>
+                                    <numPedido>85226568688</numPedido>
+                                    <fechaCompra>21-10-2022</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_24'>                     
+                            <infocliente>
+                                <nombre>Rodrigo6SS56</nombre>
+                                <apellidos>Pozo CamposSS656</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo5656</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo.pozo656@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_69'>
+                                <infoPedido>
+                                    <numPedido>8484525228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>960</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_70'>
+                                <infoPedido>
+                                    <numPedido>51422514159</numPedido>
+                                    <fechaCompra>25-12-2020</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Disco Duro Extraible</nombreProducto>
+                                        <referencia>ES475562582</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIMESTRE_4'>
+                    <clientes>
+                        <cliente id='CLIENTE_1'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier Canorea</apellidos>
+                                <telefono>695969</telefono>
+                                <direccion>
+                                    <calle>Calle Loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>485695</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>22-12-2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_71'>
+                                <infoPedido>
+                                    <numPedido>25012252151</numPedido>
+                                    <fechaCompra>03-05-2020</fechaCompra>
+                                    <totalFactura>875</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>PC Premontado ASUS</nombreProducto>
+                                        <referencia>ES8595852</referencia>
+                                        <precio>875</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_72'>
+                                <infoPedido>
+                                    <numPedido>8562524255</numPedido>
+                                    <fechaCompra>25-11-2019</fechaCompra>
+                                    <totalFactura>320</totalFactura>
+                                    <totalProductos>4</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Alfombrilla Corsair</nombreProducto>
+                                        <referencia>ES62554</referencia>
+                                        <precio>52</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Monitor Omen HP 140hZ</nombreProducto>
+                                        <referencia>ES8548522</referencia>
+                                        <precio>106</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Procesador intel 2th 2.1GHZ</nombreProducto>
+                                        <referencia>ES5265528</referencia>
+                                        <precio>110</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_73'>
+                                <infoPedido>
+                                    <numPedido>8522814554</numPedido>
+                                    <fechaCompra>21-10-2020</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_2'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Izquierdo Henares</apellidos>
+                                <telefono>695885895</telefono>
+                                <direccion>
+                                    <calle>Calle Humanes</calle>
+                                    <ciudad>Humanes</ciudad>
+                                    <cp>485828</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.izquierdo@correo.es</correo>
+                                <fechaInclusion>07-05-2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_74'>
+                                <infoPedido>
+                                    <numPedido>8522545458</numPedido>
+                                    <fechaCompra>12-09-2020</fechaCompra>
+                                    <totalFactura>1525</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>405</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_75'>
+                                <infoPedido>
+                                    <numPedido>1545228</numPedido>
+                                    <fechaCompra>12-04-2012</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_25'>                     
+                            <infocliente>
+                                <nombre>Rodri</nombre>
+                                <apellidos>Pozo Camposas</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigoasa.pozo@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_76'>
+                                <infoPedido>
+                                    <numPedido>548485152454</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_26'>                     
+                            <infocliente>
+                                <nombre>Rodo</nombre>
+                                <apellidos>Pozo Ca</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rodrigo@correo.es</correo>
+                                <fechaInclusion>14-10-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_77'>
+                                <infoPedido>
+                                    <numPedido>482524762</numPedido>
+                                    <fechaCompra>09-12-2021</fechaCompra>
+                                    <totalFactura>950</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>550</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_78'>
+                                <infoPedido>
+                                    <numPedido>544555228</numPedido>
+                                    <fechaCompra>21-07-2019</fechaCompra>
+                                    <totalFactura>1120</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CLIENTE_27'>                     
+                            <infocliente>
+                                <nombre>Roo</nombre>
+                                <apellidos>Campos</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle Arroyo</calle>
+                                    <ciudad>Arroyo Molinos</ciudad>
+                                    <cp>8695425</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Rpozo@correo.es</correo>
+                                <fechaInclusion>10-08-2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PEDIDO_79'>
+                                <infoPedido>
+                                    <numPedido>45251552</numPedido>
+                                    <fechaCompra>29-06-2020</fechaCompra>
+                                    <totalFactura>1520</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Cascos Astros</nombreProducto>
+                                        <referencia>ES2256284</referencia>
+                                        <precio>560</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Refrigeración Liquida Custom LED</nombreProducto>
+                                        <referencia>ES752856</referencia>
+                                        <precio>400</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PEDIDO_80'>
+                                <infoPedido>
+                                    <numPedido>442517459</numPedido>
+                                    <fechaCompra>25-11-2023</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Tiras Led Cambiables</nombreProducto>
+                                        <referencia>ES45258556</referencia>
+                                        <precio>50</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+            </trimestres>
+        </anio2022>
+    </anios>
+</facturacion>

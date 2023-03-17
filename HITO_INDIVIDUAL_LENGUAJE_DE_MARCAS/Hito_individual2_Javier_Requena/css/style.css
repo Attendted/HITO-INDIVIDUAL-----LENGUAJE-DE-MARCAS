@@ -1,0 +1,13 @@
+.tabla1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.tabla1 table{
+    background-color: greenyellow;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid rgb(69, 31, 172)
+}
